@@ -9,8 +9,8 @@ sns.set_style("whitegrid")
 import warnings
 warnings.filterwarnings("ignore")
 
-training = pd.read_csv("C:\Users\adi18\Desktop\titanic\train.csv")
-testing = pd.read_csv("C:\Users\adi18\Desktop\titanic\test.csv")
+training = pd.read_csv("../input/train.csv")
+testing = pd.read_csv("../input/test.csv")
 
 training.head()
 
